@@ -10,9 +10,6 @@
     Recuerde que antes de usarlo debe configurar la base de datos para que las consultas SQL se puedan ejecutar.
 ]]
 
-
-db_exec([[CREATE TABLE IF NOT EXISTS carrerascvr ( NombreCarrera VARCHAR(200), Creador VARCHAR(50), Vehiculo INT, Checkpoints TEXT, Startcoords TEXT, MejoresTiempos TEXT )]]);
-
 local carroscreadores={}
 local participantes={}
 local playerinfo={}
@@ -456,7 +453,9 @@ addEventHandler("CVRCarrerasRequestData",root,alimentarTablaLocal)
 
 
 function enviarMensajedeEntrada()
-    outputChatBox("Recurso creado por BalaclavaAM para Colombian Virtual Reality. www.discord.com/mtacvr",root,255,255,0)
-    outputChatBox("Recurso público. Si usted desea remover los créditos no hay ningún problema siempre y cuando no se use para fines comerciales.",root,255,255,0)
+    outputChatBox(prefix.."Recurso creado por #FC1515BalaclavaAM#FFFFFF para #A400F7Colombian Virtual Reality. #51B6F5www.discord.com/mtacvr",root,255,255,0,true)
+    outputChatBox(prefix.."Recurso público. Si usted desea remover los créditos no hay ningún problema siempre y cuando #FC1515no se use para fines comerciales.",root,255,255,0,true)
+    
+    db_exec([[CREATE TABLE IF NOT EXISTS carrerascvr ( NombreCarrera VARCHAR(200), Creador VARCHAR(50), Vehiculo INT, Checkpoints TEXT, Startcoords TEXT, MejoresTiempos TEXT )]]);
 end
 addEventHandler("onResourceStart",resourceRoot,enviarMensajedeEntrada)

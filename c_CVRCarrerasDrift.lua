@@ -554,7 +554,7 @@ addEvent("CVRCarreras:ActivarCaida",true)
 addEventHandler("CVRCarreras:ActivarCaida",root,enableCaida)
 
 
-function crearPanel()
+function crearPanel2()
     local screenW, screenH = guiGetScreenSize()
     CVRCarrerasPanelMain = guiCreateWindow((screenW - 464) / 2, (screenH - 526) / 2, 464, 526, "Carrera CVR", false)
     guiWindowSetSizable(CVRCarrerasPanelMain, false)
@@ -654,7 +654,7 @@ function creadorPanel()
         destroyElement(CVRCarrerasPanelMain)
         showCursor(false)
     else
-        crearPanel()
+        crearPanel2()
         triggerServerEvent("CVRCarrerasRequestData",localPlayer)
         addEventHandler("onClientGUIClick",root,clickPanelCarreras)
         showCursor(true)
