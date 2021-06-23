@@ -1,6 +1,8 @@
 # Race System SQL For MTA / Sistema de Carreras SQL para MTA
 
-Preview: 
+Preview: https://youtu.be/VApAOphNBz0
+
+Guía para crear carreras DETALLADA: https://colombianvirtualreality.com/foro/index.php?/topic/207-%C2%BFc%C3%B3mo-crear-una-carrera-en-cvr/
 
 ES: 
   Recurso de MTA para crear carreras usando SQL. 
