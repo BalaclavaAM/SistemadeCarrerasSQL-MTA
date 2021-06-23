@@ -18,6 +18,8 @@ ES:
     
     - Recurso optimizado y seguro.
     
+    - Guarda los mejores records de una carrera.
+    
    Comandos:
     - /cargarcarrera: Abre el GUI Cargador de carreras
     
@@ -49,6 +51,8 @@ EN:
      - Play 25 simultaneous races on the server.
     
      - Optimized and safe resource.
+     
+     - It saves the records of a race :).
     
     Commands:
      - /cargarcarrera: Opens the Race Loader GUI
