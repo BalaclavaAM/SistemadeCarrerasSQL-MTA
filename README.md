@@ -8,6 +8,7 @@ ES:
   Recurso de MTA para crear carreras usando SQL. 
   
   Capacidades:
+    
     - Crear carreras y almacenarlas en MySQL o SQLite.
     
     - Eliminar carreras almacenadas.
@@ -21,6 +22,7 @@ ES:
     - Guarda los mejores records de una carrera.
     
    Comandos:
+    
     - /cargarcarrera: Abre el GUI Cargador de carreras
     
     - /eliminarcarrera: Elimina una carrera
